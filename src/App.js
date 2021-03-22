@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Homepage from './components/Homepage';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>HELLO WORLD!</h1>
-      <h1>Mauricio Here, welcome to my cheesie app. </h1>
+      <div> 
+       <NavBar></NavBar> 
+        <Homepage> </Homepage>
+      </div>
+     
     </div>
   );
 }
