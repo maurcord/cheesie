@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import './Stylesheets/App.css';
 import Homepage from './components/Homepage';
-import NavBar from './components/NavBar';
+import NavBar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <div> 
        <NavBar></NavBar> 
-        <Homepage> </Homepage>
+        <Homepage></Homepage>
       </div>
      
     </div>

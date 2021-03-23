@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../Stylesheets/Homepage.css'
 
 
 class Homepage extends React.Component {
