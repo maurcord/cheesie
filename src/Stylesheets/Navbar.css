@@ -1,12 +1,7 @@
-.Navbar {
+.navbar {
   color: white;
-  background-image: url(../Assets/cheeses.jpeg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 li {
-  list-style-type: none;
   display: inline;
-  text-align: center;
+  list-style-type: none;
 }

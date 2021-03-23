@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../Assets/winencheese.jpeg);
+  background-position: center;
+  background-size: cover;
+}

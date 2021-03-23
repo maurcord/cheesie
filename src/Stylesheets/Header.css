@@ -1,0 +1,8 @@
+.header {
+  background-image: url(../Assets/cheeses.jpeg);
+  width: 100%;
+  height: 180px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}

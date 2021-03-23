@@ -1,13 +1,12 @@
 import './Stylesheets/App.css';
-import Homepage from './components/Homepage';
-import NavBar from './components/Navbar';
+import Main from './components/Main';
+
 
 function App() {
   return (
     <div className="App">
       <div> 
-       <NavBar></NavBar> 
-        <Homepage></Homepage>
+        <Main></Main>
       </div>
      
     </div>
