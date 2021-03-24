@@ -1,4 +1,6 @@
 .searchbar {
   background-color: maroon;
   width: 100%;
+  text-align: center;
+  height: 50px;
 }

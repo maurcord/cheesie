@@ -1,7 +1,20 @@
 .navbar {
-  color: white;
+  color: maroon;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 45px;
 }
+
+.nav {
+  text-decoration: none;
+}
+
 li {
   display: inline;
   list-style-type: none;
+  text-decoration: none;
+  padding: 20px;
 }

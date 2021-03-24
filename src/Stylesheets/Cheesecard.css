@@ -1,0 +1,27 @@
+.cheesecard {
+  position: relative;
+  margin: 0px;
+  padding: 10px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.cheesecard::before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "normal";
+  background-image: url(../Assets/winencheese.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.1;
+  z-index: -1;
+}
