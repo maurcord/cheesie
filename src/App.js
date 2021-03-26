@@ -1,16 +1,20 @@
 import './Stylesheets/App.css';
 import Main from './components/Main';
+import { Component } from 'react';
 
 
-function App() {
+
+class App extends Component {
+
+  
+  render() {
   return (
     <div className="App">
-      <div> 
-        <Main></Main>
-      </div>
-     
+      <header> 
+        <Main></Main> 
+      </header>
     </div>
   );
-}
+}}
 
 export default App;
